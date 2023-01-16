@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D8CAA5E286CB8ED00182188 /* meetingAudio2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7D8CAA5D286CB8ED00182188 /* meetingAudio2.m4a */; };
-		D617A1882623CDC400B94FD0 /* addTaskScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D617A1872623CDC400B94FD0 /* addTaskScreen.swift */; };
 		D62071C325F411FF00CB694B /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D62071C225F411FF00CB694B /* Poppins-SemiBold.ttf */; };
 		D63F86A32633D9C300124B82 /* sfdafViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63F86A22633D9C200124B82 /* sfdafViewController.swift */; };
 		D6504E3426003D7E00D8104B /* SFProDisplay.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6504E3326003D7E00D8104B /* SFProDisplay.ttf */; };
@@ -28,15 +26,17 @@
 		D6D2C19525EB459B00F95EDE /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D2C19425EB459B00F95EDE /* ViewController2.swift */; };
 		D6D2C19725EB498500F95EDE /* MeetingTVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D2C19625EB498500F95EDE /* MeetingTVCTableViewCell.swift */; };
 		D6DC1A592669CDF000D02FF5 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DC1A582669CDF000D02FF5 /* NewViewController.swift */; };
-		D6E32E4025FE7B040081BA39 /* SecondCellTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E32E3F25FE7B040081BA39 /* SecondCellTable.swift */; };
 		D6E32E4225FFBB4F0081BA39 /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E32E4125FFBB4F0081BA39 /* Reminders.swift */; };
 		D6E32E4425FFC09C0081BA39 /* first.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E32E4325FFC09C0081BA39 /* first.swift */; };
 		D6E32E4625FFC2910081BA39 /* circlecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E32E4525FFC2910081BA39 /* circlecell.swift */; };
 		D6E32E4825FFC8AC0081BA39 /* itemsRemainingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E32E4725FFC8AC0081BA39 /* itemsRemainingCell.swift */; };
 		D6E32E4A25FFCA590081BA39 /* tdcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E32E4925FFCA590081BA39 /* tdcell.swift */; };
 		D6E32E4C25FFCD5E0081BA39 /* itemscompl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E32E4B25FFCD5E0081BA39 /* itemscompl.swift */; };
-		D6E32E4E25FFD0E00081BA39 /* jcomp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E32E4D25FFD0E00081BA39 /* jcomp.swift */; };
 		D6E32E50260039E60081BA39 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6E32E4F260039E60081BA39 /* Poppins-Medium.ttf */; };
+		D6E61DB32975E38F0042CA35 /* addTaskScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E61DB22975E38F0042CA35 /* addTaskScreen.swift */; };
+		D6E61DB52975E3BB0042CA35 /* meetingAudio2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D6E61DB42975E3BB0042CA35 /* meetingAudio2.m4a */; };
+		D6E61DB72975E3D30042CA35 /* jcomp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E61DB62975E3D30042CA35 /* jcomp.swift */; };
+		D6E61DB92975E3E70042CA35 /* SecondCellTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E61DB82975E3E70042CA35 /* SecondCellTable.swift */; };
 		D90804A42F67D3C7D6E21E33 /* Pods_ProjectXZoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EB899AD3D69F5C9D5FC93F /* Pods_ProjectXZoom.framework */; };
 		ED96987AA50AC853A2714B3F /* Pods_ProjectXZoomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1C7F4434843886ED6314AB /* Pods_ProjectXZoomTests.framework */; };
 		F57E1DA2B1AE252DF8B557C3 /* Pods_ProjectXZoom_ProjectXZoomUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA0DABE479C2EEB255B0EDF /* Pods_ProjectXZoom_ProjectXZoomUITests.framework */; };
@@ -64,12 +64,10 @@
 		3AFAFF25D65E4749B2CCA9FC /* Pods-ProjectXZoomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectXZoomTests.debug.xcconfig"; path = "Target Support Files/Pods-ProjectXZoomTests/Pods-ProjectXZoomTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7907FA1AED3E7E9E393E9271 /* Pods-ProjectXZoom-ProjectXZoomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectXZoom-ProjectXZoomUITests.release.xcconfig"; path = "Target Support Files/Pods-ProjectXZoom-ProjectXZoomUITests/Pods-ProjectXZoom-ProjectXZoomUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7C93024647202F0102C35978 /* Pods-ProjectXZoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectXZoom.debug.xcconfig"; path = "Target Support Files/Pods-ProjectXZoom/Pods-ProjectXZoom.debug.xcconfig"; sourceTree = "<group>"; };
-		7D8CAA5D286CB8ED00182188 /* meetingAudio2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = meetingAudio2.m4a; path = ../../../meetingAudio2.m4a; sourceTree = "<group>"; };
 		82AD05E6DC996B134D93582F /* Pods-ProjectXZoomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectXZoomTests.release.xcconfig"; path = "Target Support Files/Pods-ProjectXZoomTests/Pods-ProjectXZoomTests.release.xcconfig"; sourceTree = "<group>"; };
 		8D1C7F4434843886ED6314AB /* Pods_ProjectXZoomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectXZoomTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC020E3520D1A1F48BE287C9 /* Pods-ProjectXZoom-ProjectXZoomUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectXZoom-ProjectXZoomUITests.debug.xcconfig"; path = "Target Support Files/Pods-ProjectXZoom-ProjectXZoomUITests/Pods-ProjectXZoom-ProjectXZoomUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4EB899AD3D69F5C9D5FC93F /* Pods_ProjectXZoom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectXZoom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D617A1872623CDC400B94FD0 /* addTaskScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = addTaskScreen.swift; path = Pods/addTaskScreen.swift; sourceTree = "<group>"; };
 		D62071C225F411FF00CB694B /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		D63F86A22633D9C200124B82 /* sfdafViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sfdafViewController.swift; sourceTree = "<group>"; };
 		D6504E3326003D7E00D8104B /* SFProDisplay.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFProDisplay.ttf; sourceTree = "<group>"; };
@@ -95,15 +93,17 @@
 		D6D2C19425EB459B00F95EDE /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		D6D2C19625EB498500F95EDE /* MeetingTVCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTVCTableViewCell.swift; sourceTree = "<group>"; };
 		D6DC1A582669CDF000D02FF5 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
-		D6E32E3F25FE7B040081BA39 /* SecondCellTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecondCellTable.swift; path = Pods/SecondCellTable.swift; sourceTree = SOURCE_ROOT; };
 		D6E32E4125FFBB4F0081BA39 /* Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminders.swift; sourceTree = "<group>"; };
 		D6E32E4325FFC09C0081BA39 /* first.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = first.swift; sourceTree = "<group>"; };
 		D6E32E4525FFC2910081BA39 /* circlecell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circlecell.swift; sourceTree = "<group>"; };
 		D6E32E4725FFC8AC0081BA39 /* itemsRemainingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemsRemainingCell.swift; sourceTree = "<group>"; };
 		D6E32E4925FFCA590081BA39 /* tdcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tdcell.swift; sourceTree = "<group>"; };
 		D6E32E4B25FFCD5E0081BA39 /* itemscompl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemscompl.swift; sourceTree = "<group>"; };
-		D6E32E4D25FFD0E00081BA39 /* jcomp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = jcomp.swift; path = Pods/jcomp.swift; sourceTree = "<group>"; };
 		D6E32E4F260039E60081BA39 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		D6E61DB22975E38F0042CA35 /* addTaskScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addTaskScreen.swift; sourceTree = "<group>"; };
+		D6E61DB42975E3BB0042CA35 /* meetingAudio2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = meetingAudio2.m4a; sourceTree = "<group>"; };
+		D6E61DB62975E3D30042CA35 /* jcomp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jcomp.swift; sourceTree = "<group>"; };
+		D6E61DB82975E3E70042CA35 /* SecondCellTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondCellTable.swift; sourceTree = "<group>"; };
 		FFA0DABE479C2EEB255B0EDF /* Pods_ProjectXZoom_ProjectXZoomUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectXZoom_ProjectXZoomUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -171,10 +171,10 @@
 		D6D2C15825EB3CDF00F95EDE = {
 			isa = PBXGroup;
 			children = (
-				7D8CAA5D286CB8ED00182188 /* meetingAudio2.m4a */,
-				D617A1872623CDC400B94FD0 /* addTaskScreen.swift */,
+				D6E61DB42975E3BB0042CA35 /* meetingAudio2.m4a */,
+				D6E61DB22975E38F0042CA35 /* addTaskScreen.swift */,
 				D6DC1A582669CDF000D02FF5 /* NewViewController.swift */,
-				D6E32E4D25FFD0E00081BA39 /* jcomp.swift */,
+				D6E61DB62975E3D30042CA35 /* jcomp.swift */,
 				D6E32E4725FFC8AC0081BA39 /* itemsRemainingCell.swift */,
 				D6E32E4525FFC2910081BA39 /* circlecell.swift */,
 				D6D2C16325EB3CE000F95EDE /* ProjectXZoom */,
@@ -200,7 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				D692C76426217B7500A0F3C1 /* Poppins-Bold.ttf */,
-				D6E32E3F25FE7B040081BA39 /* SecondCellTable.swift */,
+				D6E61DB82975E3E70042CA35 /* SecondCellTable.swift */,
 				D62071C125F411E900CB694B /* Fonts */,
 				D6D2C16425EB3CE000F95EDE /* AppDelegate.swift */,
 				D6D2C16625EB3CE000F95EDE /* SceneDelegate.swift */,
@@ -351,8 +351,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E61DB52975E3BB0042CA35 /* meetingAudio2.m4a in Resources */,
 				D6D2C17125EB3CE300F95EDE /* LaunchScreen.storyboard in Resources */,
-				7D8CAA5E286CB8ED00182188 /* meetingAudio2.m4a in Resources */,
 				D62071C325F411FF00CB694B /* Poppins-SemiBold.ttf in Resources */,
 				D692C76526217B7500A0F3C1 /* Poppins-Bold.ttf in Resources */,
 				D6504E3426003D7E00D8104B /* SFProDisplay.ttf in Resources */,
@@ -488,15 +488,13 @@
 			files = (
 				D6E32E4A25FFCA590081BA39 /* tdcell.swift in Sources */,
 				D6E32E4225FFBB4F0081BA39 /* Reminders.swift in Sources */,
-				D6E32E4025FE7B040081BA39 /* SecondCellTable.swift in Sources */,
 				D63F86A32633D9C300124B82 /* sfdafViewController.swift in Sources */,
 				D6E32E4425FFC09C0081BA39 /* first.swift in Sources */,
 				D6AB1D8B25FDB24500895AC9 /* ToDolistViewController.swift in Sources */,
 				D6D2C16925EB3CE000F95EDE /* ViewController.swift in Sources */,
-				D6E32E4E25FFD0E00081BA39 /* jcomp.swift in Sources */,
 				D6E32E4825FFC8AC0081BA39 /* itemsRemainingCell.swift in Sources */,
 				D6DC1A592669CDF000D02FF5 /* NewViewController.swift in Sources */,
-				D617A1882623CDC400B94FD0 /* addTaskScreen.swift in Sources */,
+				D6E61DB32975E38F0042CA35 /* addTaskScreen.swift in Sources */,
 				D6D2C19525EB459B00F95EDE /* ViewController2.swift in Sources */,
 				D6E32E4C25FFCD5E0081BA39 /* itemscompl.swift in Sources */,
 				D6AB1D8D25FDBF1500895AC9 /* ToDoListTableViewCell.swift in Sources */,
@@ -505,6 +503,8 @@
 				D6D2C19725EB498500F95EDE /* MeetingTVCTableViewCell.swift in Sources */,
 				D6582C4825EB4A5600B5A22D /* CountryTVC.swift in Sources */,
 				D6E32E4625FFC2910081BA39 /* circlecell.swift in Sources */,
+				D6E61DB92975E3E70042CA35 /* SecondCellTable.swift in Sources */,
+				D6E61DB72975E3D30042CA35 /* jcomp.swift in Sources */,
 				D6D2C16725EB3CE000F95EDE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
